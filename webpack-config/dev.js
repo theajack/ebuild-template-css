@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
-    entry: path.resolve('./', 'public/main.js'),
+    entry: path.resolve('./', 'src/index.js'),
     output: {
         path: path.resolve('./', 'public'),
         filename: 'bundle.js'
